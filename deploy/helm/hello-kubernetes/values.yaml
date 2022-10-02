@@ -8,8 +8,8 @@ ingress:
   pathPrefix: ""
 
 service:
-  type: LoadBalancer
-  port: 80
+  type: NodePort
+  port: 30167
 
 deployment:
   replicaCount: 2
